@@ -17,7 +17,6 @@ class EmailAddressParser
     emails_array = []
     @emails.split(" ")
     binding.pry
-    end
   end
 
 end
