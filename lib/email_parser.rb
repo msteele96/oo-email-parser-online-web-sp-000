@@ -18,8 +18,8 @@ class EmailAddressParser
     emails_array << @emails.split(" ")
     emails_array.each do |email|
       email.strip
+      binding.pry
     end
-    binding.pry
   end
 
 end
