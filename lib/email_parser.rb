@@ -16,7 +16,7 @@ class EmailAddressParser
   def parse
     emails_array = []
     emails_array << @emails.split(" ").delete(",")
-    # binding.pry
+    binding.pry
   end
 
 end
