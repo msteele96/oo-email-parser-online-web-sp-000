@@ -19,5 +19,6 @@ class EmailAddressParser
       email.delete(",")
     binding.pry
   end
+  end
 
 end
