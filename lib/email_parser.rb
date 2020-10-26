@@ -17,7 +17,7 @@ class EmailAddressParser
     emails_array = []
     emails_array << @emails.split(" ")
     emails_array.each do |email|
-      email.gsub(",","")
+      email.gsub("," , "")
       binding.pry
     end
   end
