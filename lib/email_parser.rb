@@ -16,6 +16,7 @@ class EmailAddressParser
     emails_array.each do |email|
       email.delete!(",")
     end
+    return emails_array.uniq
   end
 
 end
