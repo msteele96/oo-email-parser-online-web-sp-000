@@ -15,11 +15,8 @@ class EmailAddressParser
 
   def parse
     emails_array = []
-    @emails.split(" ").each do |email|
-      emails.push(email.delete(","))
-    # emails_array.each do |email|
-    #   email.delete(",")
-      binding.pry
+    @emails.split(" ")
+    binding.pry
     end
   end
 
